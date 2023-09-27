@@ -10,7 +10,7 @@
 获取Api和把获取的信息分别通过ToCity，ToWeather变成City类，Weather类
 ### WeatherController
 启动该天气查询系统
-### [遇到问题]
+## [遇到问题]
 Bug解决方案:1.mvn test 使用的是surefire插件
 它按照指定格式的类名来查找匹配的测试类
 默认包含的测试类：
@@ -27,7 +27,9 @@ Bug解决方案:1.mvn test 使用的是surefire插件
 2.[IDEA中找不到maven插件Plugin ‘org.apache.tomcat.maven:tomcat7-maven-plugin:2.2‘ not found_plugin 'org_Sicilly_琬姗的博客-CSDN博客](https://blog.csdn.net/weixin_37551036/article/details/119382042#:~:text=%E5%9C%A8Setting%E4%B8%AD%E5%8B%BE%E9%80%89Use%20plugin%20registry%20%E7%84%B6%E5%90%8E%E7%82%B9%E5%87%BBFile%20%F0%9F%A1%92%20Invalidate%20Caches%EF%BC%8C%E7%82%B9%E5%87%BBInvalidate,and%20Restart%20%E7%AD%89%E5%BE%85IDEA%E9%87%8D%E5%90%AF%E5%90%8E%E4%B8%8D%E5%86%8D%E6%8A%A5%E9%94%99%EF%BC%9A%20Maven%20Maven%20%E6%89%BE%E4%B8%8D%E5%88%B0%20%E2%80%9D%E9%94%99%E8%AF%AF%E3%80%82)
 
 3.[Mybatis报错Error parsing SQL Mapper Configuration. Cause: java.io.IOException: Could not find resource_error parsing property name lambda$0_Pason·Chen的博客-CSDN博客](https://blog.csdn.net/weixin_37551036/article/details/119382042#:~:text=%E5%9C%A8Setting%E4%B8%AD%E5%8B%BE%E9%80%89Use%20plugin%20registry%20%E7%84%B6%E5%90%8E%E7%82%B9%E5%87%BBFile%20%F0%9F%A1%92%20Invalidate%20Caches%EF%BC%8C%E7%82%B9%E5%87%BBInvalidate,and%20Restart%20%E7%AD%89%E5%BE%85IDEA%E9%87%8D%E5%90%AF%E5%90%8E%E4%B8%8D%E5%86%8D%E6%8A%A5%E9%94%99%EF%BC%9A%20Maven%20Maven%20%E6%89%BE%E4%B8%8D%E5%88%B0%20%E2%80%9D%E9%94%99%E8%AF%AF%E3%80%82)
+
 4.[Mysql错误:check the manual that corresponds to your MySQL server version for the right syntax_bing激凌~的博客-CSDN博客](https://blog.csdn.net/LT_lover/article/details/78912450)
+
 5.java.sql包下给出三个与数据库相关的日期时间类型:
 Date：表示日期，只有年月日，没有时分秒。会丢失时间；
 Time：表示时间，只有时分秒，没有年月日。会丢失日期；
