@@ -2,14 +2,28 @@
 ## [功能描述]：获取api查询某地的信息和三日天气情况，并将数据放入数据库的表中，然后对表进行增删查改操作
 ## [开发环境]：idea
 ## [项目结构简介]：
-### CityController
-对表中城市进行增删查改操作
-### pojo
-放城市City和天气Weather两个类
-### Utils
-获取Api和把获取的信息分别通过ToCity，ToWeather变成City类，Weather类
-### WeatherController
-启动该天气查询系统
+```
+quiry_weather_system
+  └─src
+      ├─main
+      │  ├─java
+      │  │  └─org
+      │  │      └─example
+      │  │          ├─CityController对表中城市进行增删查改操作
+      │  │          ├─mapper
+      │  │          ├─pojo放城市City和天气Weather两个类
+      │  │          ├─Utils工具类：获取Api和把获取的信息分别通过ToCity，ToWeather变成City类，Weather类
+      │  │          └─WeatherController启动该天气查询系统
+      │  └─resources
+      │      └─org
+      │          └─example
+      │              └─mapper
+      └─test
+          └─java
+
+```
+
+
 ## [遇到问题]
 Bug解决方案:1.mvn test 使用的是surefire插件
 它按照指定格式的类名来查找匹配的测试类
